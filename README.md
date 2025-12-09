@@ -61,12 +61,7 @@ Comme il y a du PHP, l’idéal est d’utiliser un petit serveur local :
    - `htdocs` (XAMPP)  
    - ou `www` (WAMP)
 3. Lancer Apache
-4. Ouvrir dans le navigateur :
-
-```text
-http://localhost/couscoustajine-website/
-
----
+4. Ouvrir dans le navigateur
 
 ## Aperçu du site (captures d’écran)
 
