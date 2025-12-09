@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+   <meta charset="UTF-8"> <!-- l'encodage des caractères à destination des navigateurs-->
+   
+   <meta http-equiv="X-UA-Compatible" content="IE=edge"><!--Le mode Edge indique à Internet Explorer d'afficher le contenu dans le mode le plus élevé disponible-->
+   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Le Viewport désigne schématiquement la surface de la fenêtre du navigateur selon l'appareil utiliser-->
+   
+   <!-- Début ---- Le titre de site à afficher sur l'onglet de navigateur  ---------------->
+   
+   <title>Couscous & tajine foodtruck</title>
+
+   <!-- Fin ---- Le titre de site à afficher sur l'onglet de navigateur  ---------------->
+   
+   <!-- Début ----- des liens vers : des CDN qui rendre le site plus vite   -------------------------------->
+   
+   
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+   
+   <!-- Fin ----- des liens vers : des CDN  ------------------------------------>
+
+   <!-- Début "Favicon" l'icon sur l'onglet------------------------------------->
+
+       <link rel="icon" href="images/favicon.png">
+       
+   <!-- Fin "Favicon" l'icon sur l'onglet------------------------------------->
+
+
+   <!-- Lien vers le fichier CSS  ---------------------------------------------->
+   
+   <link rel="stylesheet" href="css/style.css">
+   
+   <!-- Fin ----Lien vers le fichier CSS  -------------------------------------->
+
+</head>
+<body>
+   
+<!-- Début de section header     ----------------------------------------------->
+
+<section class="header">
+
+   <a href="#home" class="logo"> <img src="images/CouscousTajineLogo.png" class="u-logo-image u-logo-image-1"></a>
+
+   <nav class="navbar">
+      <a href="#home">Accueil</a>
+      <a href="#food">Nos Plats</a>
+      <a href="#gallery">Galerie</a>
+      <a href="#menu">Menu</a>
+      <a href="#order">Commande</a>
+      <a href="#blogs">Promotions</a>
+      <a href="#about">À propos de nous</a>
+   </nav>
+   <div id="menu-btn" class="fas fa-bars"></div>
+
+</section>
+
+<!-- Fin de section header    -->
+
+<!-- Début de section Accueil  -->
+
+<section class="home" id="home">
+
+   <div class="swiper home-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide" style="background: url(images/home-slide-1.jpg) no-repeat;">
+            <div class="content">
+               <span>Livraison à domicile...comme un restaurant</span>
+               <h3>Divers choix et une suggestion chaque semaine</h3>
+               <a href="#menu" class="btn">Commencez</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide" style="background: url(images/epicesMaroc.jpg) no-repeat;">
+            <div class="content">
+               <span>une cuisine ... un voyage</span>
+               <h3>une délicieuse cuisine Maroco-italienne</h3>
+               <a href="#menu" class="btn">Commencez</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide" style="background: url(images/home-slide-3.jpg) no-repeat;">
+            <div class="content">
+               <span>Régalez vous</span>
+               <h3>Une cuisine du qualité et un goût merveilleux</h3>
+               <a href="#menu" class="btn">Commencez</a>
+            </div>
+         </div>
+
+      </div>
+
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+
+   </div>
+
+</section>
+
+<!-- Fin de section Accueil ---------------------------------------------------->
+
+<!-- Début de section À propos de nous  ---------------------------------------->
+
+<section class="about" id="about">
+
+   <div class="image">
+      <img src="images/LogoFoodtruck.jpg" alt="">
+   </div>
+
+   <div class="content">
+      <h3 class="title">Bienvenue chez nous</h3>
+      <p>Nous vous offrons une cuisine préparer avec amour,riche de ses épices et de ses saveurs traditionnelles permetant de découvrir les classiques et les délices de la cuisine marocaine d'une manière passionnante, ainsi qu'une cuisine d’inspiration tout en gardant racines et authenticité italiennes, ce qui nous démarque des autres c'est une cuisine italienne avec les saveurs de l'orient et "HALAL".
+      <br>Tous les ingrédient sont acheté et choisi soigneusement et ce sont les mêmes que nous utilisons pour cuisinier chez nous.
+      <br>Rien ne sera congelé et donc vous aurez la possibilité de congelé vous plats ou le reste de vos plats.
+      <br>Nous achetons nous mêmes la viande, et c'est nous mêmes qui fait la préparation et l'assaisonnement.</br></br></p>
+
+   </div>
+
+</section>
+
+<!-- Fin de section À propos de nous ------------------------------------------->
+
+<!-- Début de section Plats populaires  ---------------------------------------->
+
+<section class="food" id="food">
+
+   <div class="heading">  
+      <span>Plats populaires</span>
+      <h3>Authenticité et modernité</h3>
+   </div>
+
+   <div class="swiper food-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide" data-name="food-1">
+            <img src="images/food-img-1.png" alt="">
+            <h3>Couscous poulet</h3>
+            <div class="price">12.00€</div>
+         </div>
+
+         <div class="swiper-slide slide" data-name="food-2">
+            <img src="images/food-img-2.png" alt="">
+            <h3>Couscous brochettes de boeufs</h3>
+            <div class="price">13.00€</div>
+         </div>
+
+         <div class="swiper-slide slide" data-name="food-3">
+            <img src="images/food-img-3.png" alt="">
+            <h3>Cannelloni viande</h3>
+            <div class="price">9.00€</div>
+         </div>
+
+         <div class="swiper-slide slide" data-name="food-4">
+            <img src="images/food-img-4.png" alt="">
+            <h3>Tiramisu aux Oreo</h3>
+            <div class="price">5.00€</div>
+         </div>
+
+         <div class="swiper-slide slide" data-name="food-5">
+            <img src="images/food-img-5.png" alt="">
+            <h3>Pastilla poulet</h3>
+            <div class="price">5.00€</div>
+         </div>
+
+      </div>
+
+      <div class="swiper-pagination"></div>
+
+   </div>
+
+</section>
+
+<!-- Fin de section Plats populaires ------------------------------------------->
+
+<!-- Début de section Plats populaires ZOOMER  --------------------------------->
+
+<section class="food-preview-container">
+
+   <div id="close-preview" class="fas fa-times"></div>
+
+   <div class="food-preview" data-target="food-1">
+      <img src="images/food-img-1.png" alt="">
+      <h3>Couscous poulet</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p>Semoule, bouillon, poulet (cuisse/blanc), oignons & raisins</p>
+      <div class="price">12.00€</div>
+   </div>
+
+   <div class="food-preview" data-target="food-2">
+      <img src="images/food-img-2.png" alt="">
+      <h3>Couscous brochettes de boeufs</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p>Semoule, bouillon, brochettes de boeufs, oignons & raisins</p>
+      <div class="price">13.00€</div>
+   </div>
+
+   <div class="food-preview" data-target="food-3">
+      <img src="images/food-img-3.png" alt="">
+      <h3>Cannelloni viande</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p>Cannelloni à la viande haché, sauce tomate, créme culinaire, basilique</p>
+      <div class="price">9.00€</div>
+   </div>
+
+   <div class="food-preview" data-target="food-4">
+      <img src="images/food-img-4.png" alt="">
+      <h3>Tiramisu aux Oreo</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p>Déssert tiramisu oreo</p>
+      <div class="price">5.00€</div>
+   </div>
+
+   <div class="food-preview" data-target="food-5">
+      <img src="images/food-img-5.png" alt="">
+      <h3>Pastilla poulet</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p>Feuilles de pastilla, poulet, coriandre, sucre, cannelle</p>
+      <div class="price">5.00€</div>
+   </div>
+
+</section>
+
+<!-- Fin de section Plats populaires ZOOMER ------------------------------------>
+
+<!-- Début de section Galerie  ------------------------------------------------->
+
+<section class="gallery" id="gallery">
+
+   <div class="heading">
+      <span>Notre galerie</span>
+      <h3>une grande histoire d'amour</h3>
+   </div>
+
+   <div class="gallery-container">
+
+      <a href="images/plat1.jpg" class="box">
+         <img src="images/plat1.jpg" alt="">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+
+      <a href="images/plat2.jpg" class="box">
+         <img src="images/plat2.jpg" alt="">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+
+      <a href="images/plat3.jpg" class="box">
+         <img src="images/plat3.jpg" alt="">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+
+      <a href="images/plat4.jpg" class="box">
+         <img src="images/plat4.jpg" alt="">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+      
+      <a href="images/plat5.jpg" class="box">
+         <img src="images/plat5.jpg" alt="">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+
+      <a href="images/plat6.jpg" class="box">
+         <img src="images/plat6.jpg" alt="">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+      
+      <a href="images/plat7.jpg" class="box">
+         <img src="images/plat7.jpg" alt="">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+      
+      <a href="images/plat8.jpg" class="box">
+         <img src="images/plat8.jpg" alt="">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+      
+      <a href="images/plat9.jpg" class="box">
+         <img src="images/plat9.jpg" alt="">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+      
+      <a href="images/plat10.jpg" class="box">
+         <img src="images/plat10.jpg" alt="">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+      
+      <a href="images/plat11.jpg" class="box">
+         <img src="images/plat11.jpg" alt="">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+      
+      <a href="images/plat12.jpg" class="box">
+         <img src="images/plat12.jpg" alt="">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+      
+      <a href="images/plat13.jpg" class="box">
+         <img src="images/plat13.jpg" alt="">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+      
+      <a href="images/plat14.jpg" class="box">
+         <img src="images/plat14.jpg" alt="">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+      
+      <a href="images/plat15.jpg" class="box">
+         <img src="images/plat15.jpg" alt="">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+      
+      <a href="images/plat16.jpg" class="box">
+         <img src="images/plat16.jpg" alt="">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+      
+      <a href="images/plat17.jpg" class="box">
+         <img src="images/plat17.jpg" alt="">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+      
+      <a href="images/plat18.jpg" class="box">
+         <img src="images/plat18.jpg" alt="">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+      
+      <a href="images/plat19.jpg" class="box">
+         <img src="images/plat19.jpg" alt="">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+      
+      <a href="images/plat20.jpg" class="box">
+         <img src="images/plat20.jpg" alt="">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+      
+      <a href="images/plat21.jpg" class="box">
+         <img src="images/plat21.jpg" alt="">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+      
+      <a href="images/plat22.jpg" class="box">
+         <img src="images/plat22.jpg" alt="">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+      
+      <a href="images/plat23.jpg" class="box">
+         <img src="images/plat23.jpg" alt="">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+      
+      <a href="images/plat24.jpg" class="box">
+         <img src="images/plat24.jpg" alt="">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+      
+      <a href="images/plat25.jpg" class="box">
+         <img src="images/plat25.jpg" alt="">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+      
+      <a href="images/plat26.jpg" class="box">
+         <img src="images/plat26.jpg" alt="">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+
+   </div>
+
+</section>
+
+<!-- Fin de section galerie ---------------------------------------------------->
+
+<!-- Début de section menu  ---------------------------------------------------->
+
+<section class="menu" id="menu">
+
+   <div class="heading">
+      <span>Notre menu</span>
+      <h3>Des délices qui relie l'orient à l'occident</h3>
+   </div>
+
+   <div class="swiper menu-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide">
+            <h3 class="title">Nos entrées</h3>
+            <div class="box-container">
+               <div class="box">
+                  <div class="info">
+                     <h3>PASTILLA POULET</h3>
+                     <p>Feuille de brick, poulet, oignons, cannelle.</p>
+                  </div>
+                  <div class="price">5.00€</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>PASTILLA POISSON</h3>
+                     <p>Feuille de brick, fruits de mer, oignons, pates chinoises.</p>
+                  </div>
+                  <div class="price">6.00€</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>TABOULE A LA MENTHE</h3>
+                     <p>Semoule, salade.</p>
+                  </div>
+                  <div class="price">3.50€</div>
+               </div>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <h3 class="title">Plats orientaux (Couscous)</h3>
+            <div class="box-container">
+               <div class="box">
+                  <div class="info">
+                     <h3>COUSCOUS VÉGÉTARIEN</h3>
+                     <p>semoule,légumes,raisins,oignons.</p>
+                  </div>
+                  <div class="price">8.00€</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>COUSCOUS POULET</h3>
+                     <p>semoule,légumes,oignons, raisins,merguez.</p>
+                  </div>
+                  <div class="price">12.00€</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>COUSCOUS BROCHETTE BOEUF/POULET</h3>
+                     <p>semoule, légumes, raisins, oignons, brochette poulet ou boeuf.</p>
+                  </div>
+                  <div class="price">13.00€</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>COUSCOUS MERGUEZ</h3>
+                     <p>semoule, légumes, raisins, oignons, merguez.</p>
+                  </div>
+                  <div class="price">13.00€</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>COUSCOUS CÔTES D'AGNEAU</h3>
+                     <p>semoule, légumes, raisins, oignons, côtes d'agneau.</p>
+                  </div>
+                  <div class="price">14.00€</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>COUSCOUS ROYAL</h3>
+                     <p>semoule, légumes, raisins, oignons,poulet, merguez, côtes d'agneau.</p>
+                  </div>
+                  <div class="price">14.00€</div>
+               </div>
+            </div>
+         </div>
+         
+         <div class="swiper-slide slide">
+            <h3 class="title">Plats orientaux (Tajines)</h3>
+            <div class="box-container">
+               <div class="box">
+                  <div class="info">
+                     <h3>TAJINE BOULETTES KEFTA</h3>
+                     <p>boulettes viande haché,sauce tomate,oeuf.</p>
+                  </div>
+                  <div class="price">10.00€</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>TAJINE DE POULET CITRONS CONFITS</h3>
+                     <p>cuisse de poulet, légumes, citron confit.</p>
+                  </div>
+                  <div class="price">11.00€</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>TAJINE POULET RAISINS & AMANDES</h3>
+                     <p>cuisse de poulet, oignons, raisins, oeuf dure, amandes.</p>
+                  </div>
+                  <div class="price">12.00€</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>TAJINE POULET PRUNEAUX</h3>
+                     <p>cuisse de poulet, oignons, raisins, pruneaux, oeuf dure, amandes.</p>
+                  </div>
+                  <div class="price">13.00€</div>
+               </div>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <h3 class="title">Plats italiens</h3>
+            <div class="box-container">
+               <div class="box">
+                  <div class="info">
+                     <h3>CANNELLONI VIANDE</h3>
+                     <p>Viande haché, pate,sauce napolitaine, parmesan.</p>
+                  </div>
+                  <div class="price">6.00€</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>LASAGNE BOLO</h3>
+                     <p>Pate, sauce bolonaise.</p>
+                  </div>
+                  <div class="price">6.00€</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>PASTA BOLO UNIQUEMENT LE JEUDI</h3>
+                     <p>Pate, sauce bolonaise.</p>
+                  </div>
+                  <div class="price">9.00€</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>PASTA QUATTRO FORMAGGI UNIQUEMENT LE JEUDI</h3>
+                     <p>Penne , tallegio, gorgonzola, gruyère, parmesan .</p>
+                  </div>
+                  <div class="price">12.00€</div>
+               </div>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <h3 class="title">Nos désserts</h3>
+            <div class="box-container">
+                <div class="box">
+                  <div class="info">
+                     <h3>TIRAMISU</h3>
+                  </div>
+                  <div class="price">3.50€</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>TIRAMISU OREO</h3>
+                  </div>
+                  <div class="price">5.00€</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>TIRAMISU SPECULOOS</h3>
+                  </div>
+                  <div class="price">5.00€</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>TIRAMISU KINDER</h3>
+                  </div>
+                  <div class="price">5.00€</div>
+               </div>
+            </div>
+         </div>
+
+      </div>
+
+      <div class="swiper-pagination"></div>
+
+   </div>
+
+</section>
+
+<!-- Fin de section menu ------------------------------------------------------->
+
+<!-- Début de section Commande  ------------------------------------------------>
+
+<section class="order" id="order">
+
+   <div class="heading">
+      <span>Commandez maintenant</span>
+      <h3>Livraison à domicile ou à emporter</h3>
+   </div>
+
+   <form action="php/contact.php" method="post">
+      <div class="box-container">
+         <div class="box">
+            <div class="inputBox">
+               <span>Nom</span>
+               <input type="text" placeholder="Entrez votre nom" name="nom" required>
+            </div>
+            <div class="inputBox">
+               <span>Prénom</span>
+               <input type="text" placeholder="Entrez votre prénom" name="prenom" required>
+            </div>
+            <div class="inputBox">
+               <span>Téléphone</span>
+               <input type="text" placeholder="Entrez votre numéro de téléphone" name="telephone" required>
+            </div>
+            <div class="inputBox">
+               <span>Votre commande</span>
+               <textarea name="commande" placeholder="rédigez votre commande,quantité et vos remarques" id="" cols="30" rows="10" required></textarea>
+            </div>
+         </div>
+         <div class="box">
+            <div class="inputBox">
+               <span>Email</span>
+               <input type="email" placeholder="Entrez votre émail" name="email" required>
+            </div>
+            <div class="inputBox">
+               <span>Adresse</span>
+               <input type="text" placeholder="Entrez l'adresse de la livraison" name="adresse" required>
+            </div>
+            <div class="inputBox">
+               <span>L'heure de livraison souhaitée</span>
+               <input type="datetime-local" name="date">
+            </div>
+            <div class="inputBox">
+               <span>Notre emplacement chaque matin de 08h00 à 14h00 (emplacement fixe de mardi à dimanche)</span>
+               <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d534.1819003920942!2d3.866111231959348!3d50.44088335224508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e0!4m0!4m3!3m2!1d50.440793799999994!2d3.8663985999999997!5e0!3m2!1sfr!2sbe!4v1652436523598!5m2!1sfr!2sbe" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+         </div>
+      </div>
+      <input type="submit" value="Envoyer la commande" class="btn">
+   </form>
+   
+</section>
+
+<!-- Fin de section Commande --------------------------------------------------->
+
+<!-- Début de section Promotions  ---------------------------------------------->
+
+<section class="blogs" id="blogs">
+
+   <div class="heading">
+      <span>Nos promo</span>
+      <h3>Une promotion & une suggestion chaque semaine</h3>
+   </div>
+
+   <div class="swiper blogs-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/Promo.gif" alt="">
+               <span>l'offre de la semaine</span>
+            </div>
+            <div class="content">
+               <div class="icon">
+                  <a > <i class="fas fa-calendar"></i> 9 au 15 mai 2022 </a>
+               </div>
+               <a class="title">achetez 3 plats et recevez un offert</a>
+               <p>Commandez trois plats et recevez un plat offet à votre choix (montant minimum 35€)</p>
+               <a href="#order" class="btn">Commandez</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/Suggestion.gif" alt="">
+               <span>La suggestion de la semaine</span>
+            </div>
+            <div class="content">
+               <div class="icon">
+                  <a > <i class="fas fa-calendar"></i> 9 au 15 mai 2022 </a>
+                  </div>
+               <a class="title">Pates carbonara</a>
+               <p>Pates aux lardons fumés, vous pouvez choisir entre les spaghettis ou les pennes</p>
+               <a href="#order" class="btn">commandez</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/PoromoExpiree.jpeg" alt="">
+               <span>Suggestion de la semaine</span>
+            </div>
+            <div class="content">
+               <div class="icon">
+                  <a > <i class="fas fa-calendar"></i> 2 au 8 mai 2022 </a>
+               </div>
+               <a " class="title">Couscous aux cuisses de poulet</a>
+               <p>Semoule, boullion de légumes, raisins, ouignons, cuisses de poulet (+ ou - 180 gr)</p>
+               <a href="#order" class="btn">Commandez</a>
+            </div>
+         </div>
+
+      </div>
+
+      <div class="swiper-pagination"></div>
+
+   </div>
+
+</section>
+<!-- blogs section ends -------------------------------------------------------->
+
+<!-- Début de section footer  -------------------------------------------------->
+
+<section class="footer">
+
+   <div class="icons-container">
+
+      <div class="icons">
+         <i class="fas fa-clock"></i>
+         <h3>ouverture</h3>
+         <p>08:00 à 14:00</p>
+      </div>
+
+      <div class="icons">
+         <i class="fas fa-phone"></i>
+         <h3>Téléphone/whatsapp</h3>
+         <p>+32 484 366 334</p>
+      </div>
+
+      <div class="icons">
+         <i class="fas fa-envelope"></i>
+         <h3>Email</h3>
+         <p>contact@couscoustajine.be</p>
+      </div>
+
+      <div class="icons">
+         <i class="fas fa-map"></i>
+         <h3>Emplaçement (de mardi à dimanche)</h3>
+         <p>Rue de Monsville 1, 7390 Quaregnon</p>
+      </div>
+
+   </div>
+
+   <div class="share">
+      <a href="https://www.facebook.com/IlCavallinoTubize/" class="fab fa-facebook-f"></a>
+      <a href="https://chat.whatsapp.com/HifpwVXbO67AnHljwZBoAj" class="fab fa-whatsapp"></a>
+   </div>
+
+   <div class="credit">© CouscousTajine 2022 crée par <span>Soulayman</span> </div>
+   
+   <section>
+
+<audio controls autoplay>
+
+  <source src="audio/Calm.mp3" type="audio/mpeg" id="myaudio">
+  
+</audio>
+</section>
+</section>
+
+<!-- Fin de section footer  ---------------------------------------------------->
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+
+<!-- Lien vers le fichier js  -->
+<script src="js/script.js"></script>
+
+<script>
+   lightGallery(document.querySelector('.gallery .gallery-container'));
+</script>
+
+</body>
+</html>
